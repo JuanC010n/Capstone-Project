@@ -41,7 +41,7 @@ class Form extends Component {
 
     // Here we add into the possible table when the form is submitted
     this.props.handleSubmit(this.state)// Button needs to be pressed in order for the table to be updated if commented
-    this.setState(this.initialState)
+    this.setState(this.initialState) 
   }
 //     this.props.handleSubmit({sName:'h',sArt:'h',album:'h'}) How we can add to the file with values
 
