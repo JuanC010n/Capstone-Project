@@ -103,6 +103,8 @@
   max-width: 300px;
   margin-left: 20px;
   text-align:justify;
+  border-style: inset;
+  padding: 2px;
 }
 .texts2 {
   max-width: 800px;
@@ -245,3 +247,4 @@
 .titlemod{
   margin-left:40px;
 }
+
