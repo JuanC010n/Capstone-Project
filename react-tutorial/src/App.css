@@ -98,6 +98,12 @@
   margin-left: 320px;
   text-align:justify;
 }
+
+.textskey{
+  max-width: 300px;
+  margin-left: 20px;
+  text-align:justify;
+}
 .texts2 {
   max-width: 800px;
   margin-left: 20px;

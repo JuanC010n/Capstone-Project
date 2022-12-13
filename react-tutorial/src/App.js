@@ -23,14 +23,9 @@ class App extends Component {
     this.setState({ characters: [...this.state.characters, character ] })
     this.testPos=[] // Table of possibles has to be deleted after the choice
   }
-
-
   handleSubmitForm = (character) => {
     this.setState({ characters: [...this.state.characters, ] })
   }
-  
-  
-
   removeCharacterPos = () => {
     const { characters } = this.testPos
   
@@ -101,13 +96,13 @@ class App extends Component {
         <h3 class = "texts"> A recommendation System returns us a specific object or idea believed to be of interest.
          We use these recommendation systems in all areas, but until recently, performance was hampered by traditional algorithms
          and their excessive execution time, not compatible with these types of applications. </h3>
-         <h3 class = "texts"> We can bypass these constraints by using machine learning, and more specifically neural networks. Neural networks
+         <h3 class = "texts"> We can bypass these constraints by using Machine Learning, and more specifically Neural Networks. Neural Networks
          aim to simulate brain function between interacting neurons. Through models made up of layers of nodes,
          we can estimate a solution to a problem.</h3>
          <div>
          <img  class = "imgdiagram" src="https://datalya.com/blog/content/4-machine-learning/11-machine-learning-vs-traditional-programming-paradigm/ml_vs_traditional_paradigm.png" alt="explication"
          width = "470px" align = "left"/>
-         <h3 class = "explnvsa" align = "right"> Neural networks (NNs) and machine learning algorithms differ from traditional algorithms in many ways. In order to find a suitable algorithm 
+         <h3 class = "explnvsa" align = "right"> Neural Networks (NNs) and Machine Learning algorithms differ from traditional algorithms in many ways. In order to find a suitable algorithm 
          using machine learning, we must either let the program define the answer itself (unsupervised training) or train it, supplying the answers ourselves (supervised training).
          Then, the model can be further enhanced by changing hyperparameters, such as; batch size, number of epochs, learning rate and many many more. </h3>
          </div>
@@ -142,10 +137,10 @@ class App extends Component {
         One such factor can be a lack of distribution either in the training set itself or in the dataset in which the model bases its 
         results. Scores that are under-represented will not be modelled to the same standard than others, and therefore will lead to less
         accurate predictions. Another cause for inaccurate models is over and under-fitting, these can occur when the model bases its generated predictions
-        too heavily or not heavily enough on the training or validation sets. Finally, the neural network itself, could be too complex or not complex enough, which
+        too heavily or not heavily enough on the training or validation sets. Finally, the Neural Network itself, could be too complex or not complex enough, which
         could lead to again, a model which does not perform to the specified characteristics. </h3>
         <h3 class = "texts">Acknowledgements:<br></br>- SLU logo belongs to Saint Louis University<br></br>- Algorithm comparison chart belongs to datalya.com  </h3>
-        
+        <h5 align = "left" class = "textskey">Key:<br></br>training set: The set of data values entered into the model.<br></br>dataset: The starting dataset containing all of the tracks used for training.  </h5>
         <h4 align="right" class = "mynameis"> By: Juan Colón de Carvajal León</h4>
         </div>
         
