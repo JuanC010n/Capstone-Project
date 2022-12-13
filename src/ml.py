@@ -57,9 +57,9 @@ def run_model(input_usr):
   import matplotlib.pyplot as plt
 
   # Load the saved model and datasets
-  pickle_model = keras.models.load_model("ml_modelv2")
-  spotify_song_data = pd.read_csv("spotify_song_data.csv")
-  new_all = pd.read_csv("new_all.csv")
+  pickle_model = keras.models.load_model("src/ml_modelv2")
+  spotify_song_data = pd.read_csv("src/spotify_song_data.csv")
+  new_all = pd.read_csv("src/new_all.csv")
   input_usr = normalise_data(input_usr)
   print("input usr",input_usr)
 
@@ -230,7 +230,7 @@ def normalise_data(data_user):
   from sklearn import preprocessing
   from scipy import spatial
   
-  slim_data = pd.read_csv("slim.csv")
+  slim_data = pd.read_csv("src/slim.csv")
 
   # Split as only one string from fetch
   data_user = data_user.split(",")
