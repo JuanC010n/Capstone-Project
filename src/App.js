@@ -47,7 +47,9 @@ class App extends Component {
       average.push(row.popular);
       average.push(row.tempo);
     })
-
+    if (average.length <= 0){
+      alert("Final Table is Empty!")
+    }
     await fetch('http://127.0.0.1:8000/generate_predictions/?input_usr=' + average)// with parameters // with await we wait until it finishes processing
     .then(response => 
       response.json())
