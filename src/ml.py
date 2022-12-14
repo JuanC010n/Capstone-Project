@@ -79,7 +79,7 @@ def run_model(input_usr):
   if (final_wres.shape[0] > 0):
     valid_vals = final_wres.loc[final_wres["Results"] == 9 ]
     if(valid_vals.shape[0] > 2000):
-        valid_vals = valid_vals.sample(1300)
+        valid_vals = valid_vals.sample(700)
     if (valid_vals.shape[0] < 5):
       valid_vals = final_wres.loc[final_wres["Results"] >=8]
       if(valid_vals.shape[0] > 2000):
