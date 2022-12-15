@@ -97,7 +97,7 @@ class App extends Component {
       <h2 > What is a Recommendation System?</h2>
         <h3 class = "texts"> A recommendation System returns us a specific object or idea believed to be of interest.
          We use these recommendation systems in all areas, but until recently, performance was hampered by traditional algorithms
-         and their excessive execution time, not compatible with these types of applications. </h3>
+         and their excessive execution time, not compatible with these types of large scale applications. </h3>
          <h3 class = "texts"> We can bypass these constraints by using Machine Learning, and more specifically Neural Networks. Neural Networks
          aim to simulate brain function between interacting neurons. Through models made up of layers of nodes,
          we can estimate a solution to a problem.</h3>
