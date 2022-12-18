@@ -13,6 +13,8 @@ fastAPI -> pip install fastapi
 
 sklearn -> pip install scikit-learn
 
+uvicorn -> pip install uvicorn
+
 # Running the Application
 
 After downloading all of the packages we will first need to build our application with:
