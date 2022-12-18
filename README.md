@@ -3,10 +3,15 @@
 In order to run this application the following packages will need to be installed:
 *
 Spotipy -> pip install spotipy
+
 Tensorflow -> pip install tensorflow
+
 Keras -> pip install keras
+
 fastAPI -> pip install fastapi
+
 sklearn -> pip install scikit-learn
+
 # Running the Application
 
 After downloading all of the packages we will first need to build our application with:
