@@ -25,4 +25,4 @@ uvicorn src.ml:app
 
  (if application does not load in chrome use npm run build and then initialise fastapi)
 
- * some systems may require pip3 instead of pip
+  * some systems may require pip3 instead of pip
