@@ -23,5 +23,6 @@ Then we will need to open a secondary or split terminal and initialise the fastA
 
 uvicorn src.ml:app
 
-. (if application does not load in chrome use npm run build and then initialise fastapi)
+. (if application does not load in chrome use npm run build and then initialise fastapi) 
+
 . * some systems may require pip3 instead of pip
