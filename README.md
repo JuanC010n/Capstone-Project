@@ -1,7 +1,9 @@
 ## Machine Learning Recommendation System
 
 In order to run this application the following packages will need to be installed:
+
 *
+
 Spotipy -> pip install spotipy
 
 Tensorflow -> pip install tensorflow
