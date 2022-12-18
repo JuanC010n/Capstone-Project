@@ -18,8 +18,6 @@ const TableBodyPos2 = (props) => {
 
   return <tbody>{rowsPos}</tbody>
 }
-//     this.props.handleSubmit({sName:'h',sArt:'h',album:'h'}) How we can add to the file with values
-
 
 const TableHeaderPos = () => {
 return (

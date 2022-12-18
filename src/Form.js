@@ -43,7 +43,6 @@ class Form extends Component {
     this.props.handleSubmit(this.state)// Button needs to be pressed in order for the table to be updated if commented
     this.setState(this.initialState) 
   }
-//     this.props.handleSubmit({sName:'h',sArt:'h',album:'h'}) How we can add to the file with values
 
   handleChange = (event) => {
     const { name, value } = event.target
@@ -90,6 +89,3 @@ class Form extends Component {
   }
 }
 export default Form;
-//<label htmlFor="album"> Album: </label>
-//<label htmlFor="sArt"> Artist: </label>
-//<label  htmlFor="sName">Song Name: </label>
