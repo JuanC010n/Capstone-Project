@@ -1,7 +1,7 @@
 ## Machine Learning Recommendation System
 
 In order to run this application the following packages will need to be installed:
-
+*
 Spotipy -> pip install spotipy
 Tensorflow -> pip install tensorflow
 Keras -> pip install keras
@@ -17,4 +17,5 @@ Then we will need to open a secondary or split terminal and initialise the fastA
 
 uvicorn src.ml:app
 
-(if application does not load in chrome use npm run build and then initialise fastapi)
+. (if application does not load in chrome use npm run build and then initialise fastapi)
+. * some systems may require pip3 instead of pip
