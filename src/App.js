@@ -109,12 +109,12 @@ class App extends Component {
          Then, the model can be further enhanced by changing hyperparameters, such as; batch size, number of epochs, learning rate and many many more. </h3>
          </div>
          <h2 class = "header2"> Why would we use Neural Networks instead of traditional Algorithms?</h2>
-         <div>
-         <h3 class = "texts2"> As NNs allow us to essentially teach the algorithm how to score, their extreme malleability in the sense that they can emulate the behaviour of 
+         
+         <h3 class = "texts"> As NNs allow us to essentially teach the algorithm how to score, their extreme malleability in the sense that they can emulate the behaviour of 
          most other algorithms and ever-changing nature, meaning that they can always be improved at any step of the way, make NNs and by enlarge, Machine Learning, one of the premier fields 
          in computing today. NNs also outperform most traditional algorithms in execution time, making them very desirable for real time applications. 
          Furthermore, innovations in how NNs are trained and deployed, and new ways of implementing them make the future very promising for this field.  </h3>
-         </div>
+         
          <h2 class = "titlemod"> Below we have an example of a Neural Network trained for a Song Recommendation System</h2>
         <div class = "form2" ><Form  handleSubmit={this.handleSubmitForm} upPos = {this.updatePos}></Form></div>
         <h1> </h1>
