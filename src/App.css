@@ -112,6 +112,11 @@
   margin-left:29%;
   text-align:justify;
 }
+.subheading {
+  max-width: 500px;
+  margin-left:43%;
+  text-align:justify;
+}
 .header2 { 
   margin-left: 20px;
 }

@@ -92,9 +92,9 @@ class App extends Component {
       <div>
          <img src="https://www.interstride.com/wp-content/uploads/2022/05/slu_logo.png" alt="React Logo" 
          width = "160px" align = "left" class = "imagslu"/>
-         <h1 class = "titles"> Spotify Song Recommendation System</h1>
+         <h1 class = "texts"> Spotify Song Recommendation System</h1>
       </div>
-      <h2 > What is a Recommendation System?</h2>
+      <h2 class = "subheading" > What is a Recommendation System?</h2>
         <h3 class = "texts"> A recommendation System returns us a specific object or idea believed to be of interest.
          We use these recommendation systems in all areas, but until recently, performance was hampered by traditional algorithms
          and their excessive execution time, not compatible with these types of large scale applications. </h3>
